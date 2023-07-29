@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="initial-scale=1, width=device-width" />
+  <link rel="stylesheet" href="./global.css" />
+  <link rel="stylesheet" href="./index.css" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Noto Sans:wght@400;600;800&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap"
+  />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Acme:wght@400&display=swap"
+  />
+</head>
+<body>
+  <div class="desktop-1">
+    <div class="desktop-1-child"></div>
+    <img class="desktop-1-item" alt="" src="./public/ellipse-3.svg" />
+
+    <div class="desktop-1-inner"></div>
+    <div class="validate">VALIDATE</div>
+    <div class="enter-otp">
+      <p class="enter-otp1">Enter OTP</p>
+    </div>
+    <div class="rectangle-div"></div>
+
+    <div class="otp-box">
+      <input type="text" class="otp-input" maxlength="6" pattern="[0-9]" placeholder="Enter the OTP" onfocus="showCursor(this)" />
+      
+    </div>
+
+    <div class="check-your-email">Check your email for OTP</div>
+    
+    <div class="resend-otp">Resend OTP</div>
+
+    <div class="desktop-1-child1"></div>
+    <img class="image-1-icon" alt="" src="./public/image-1@2x.png" />
+
+    <button id="validateBtn">Validate OTP</button>
+  </div>
+
+  <script>
+    // Function to handle OTP validation
+    function validateOTP(event) {
+      event.preventDefault();
+
+      const otpInputs = document.querySelectorAll('.otp-input');
+      let otpValue = '';
+
+      otpInputs.forEach(input => {
+        otpValue += input.value.trim();
+      });
+
+      // Check if the OTP is valid (for demonstration, we'll assume the valid OTP is "123456")
+      const validOTP = '123456';
+      if (otpValue === validOTP) {
+        alert('OTP is valid! Saving the data.');
+        // You can perform additional actions here, like saving the data to a server or redirecting to another page.
+      } else {
+        alert('Invalid OTP! Please try again.');
+      }
+    }
+
+    // Add a click event listener to the "Validate OTP" button
+    document.getElementById('validateBtn').addEventListener('click', validateOTP);
+
+    // Add an input event listener to the OTP input fields to allow only numeric input
+    document.querySelectorAll('.otp-input').forEach(input => {
+      input.addEventListener('input', function (event) {
+        const inputValue = event.target.value;
+        event.target.value = inputValue.replace(/\D/g, ''); // Replace non-numeric characters with empty string
+
+        const nextInput = event.target.nextElementSibling;
+        if (nextInput && nextInput.hasAttribute('disabled') && inputValue !== '') {
+          nextInput.removeAttribute('disabled');
+          nextInput.focus();
+        }
+      });
+    });
+
+    // Function to show the cursor when the OTP input is focused
+    function showCursor(input) {
+      input.setSelectionRange(0, 1); // Show the cursor at the beginning of the input
+    }
+
+    // Focus the first input which index is 0 on window load
+    window.addEventListener('load', () => {
+      document.querySelectorAll('.otp-input')[0].focus();
+    });
+  </script>
+</body>
+</html>

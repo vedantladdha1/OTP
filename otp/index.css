@@ -1,0 +1,443 @@
+.desktop-1-child {
+  position: absolute;
+  top: -1148px;
+  left: 139.48px;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    rgba(120, 212, 251, 0.24),
+    rgba(120, 212, 251, 0.21) 62.5%,
+    rgba(120, 212, 251, 0)
+  );
+  width: 1610.83px;
+  height: 1610.83px;
+  transform: rotate(40.89deg);
+  transform-origin: 0 0;
+}
+.desktop-1-inner,
+.desktop-1-item {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1643px;
+  height: 1643px;
+}
+.desktop-1-inner {
+  top: 547px;
+  left: 415px;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-darkslategray);
+  width: 355px;
+  height: 60px;
+}
+.validate {
+  position: absolute;
+  top: 545px;
+  left: 453px;
+  font-size: 29px;
+  font-weight: 800;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 265px;
+  height: 62px;
+}
+.enter-otp1 {
+  margin: 0;
+}
+.enter-otp {
+  position: absolute;
+  top: 334px;
+  left: 340px;
+  font-weight: 600;
+  font-family: var(--font-inter);
+  color: #1e1e1e;
+  text-align: center;
+  display: inline-block;
+  width: 330px;
+  height: 40px;
+}
+.rectangle-div {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: var(--color-darkslategray);
+  width: 1590px;
+  height: 100px;
+}
+.health-umbrella,
+.home-about-us {
+  position: absolute;
+  top: 25px;
+  left: 81px;
+}
+.home-about-us {
+  top: 0;
+  left: 0;
+  font-weight: 600;
+}
+.home-about-us-diseases-share-e-wrapper {
+  position: absolute;
+  top: 35px;
+  left: 634px;
+  width: 609px;
+  height: 26px;
+  text-align: right;
+  font-size: 19px;
+  color: #dbdeed;
+}
+.group-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-8xs);
+  background-color: var(--color-white);
+  width: 200px;
+  height: 60px;
+}
+.donation {
+  position: absolute;
+  top: 18px;
+  left: 62px;
+}
+.check-your-email,
+.rectangle-parent {
+  position: absolute;
+  color: var(--color-black);
+}
+.rectangle-parent {
+  top: 20px;
+  left: 1341px;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  font-size: 18px;
+}
+.check-your-email {
+  top: 404px;
+  left: 415px;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-inter);
+}
+.bg,
+.resend-otp {
+  position: absolute;
+}
+.resend-otp {
+  top: 637px;
+  left: 615px;
+  font-size: var(--font-size-7xl);
+  font-family: var(--font-inter);
+  color: #777481;
+}
+.bg {
+  top: 0;
+  left: 0;
+  background-color: #001213;
+  width: 1590px;
+  height: 471px;
+}
+.internet-contains-huge {
+  position: absolute;
+  top: 162px;
+  left: 182.19px;
+  font-size: 12px;
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+  width: 493.56px;
+}
+.social-links-icon {
+  position: absolute;
+  top: 294px;
+  right: 1248.81px;
+  width: 159px;
+  height: 24px;
+  overflow: hidden;
+}
+.health-umbrella1 {
+  position: absolute;
+  top: 101px;
+  left: 182.19px;
+  font-size: 30px;
+  font-family: var(--font-acme);
+  color: var(--color-white);
+  display: flex;
+  align-items: center;
+  width: 219.73px;
+}
+.home,
+.quick-links {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.quick-links {
+  line-height: 30px;
+  font-weight: 500;
+  display: inline-block;
+  width: 281.56px;
+}
+.home {
+  width: 176.67px;
+}
+.about,
+.home,
+.members {
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+}
+.about {
+  position: absolute;
+  top: 36px;
+  left: 0;
+  width: 176.67px;
+}
+.members {
+  top: 72px;
+}
+.feedback,
+.home-parent,
+.members {
+  position: absolute;
+  left: 0;
+  width: 176.67px;
+}
+.feedback {
+  top: 108px;
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+}
+.home-parent {
+  top: 0;
+  height: 132px;
+}
+.donation1,
+.join-us,
+.newsletters-l {
+  position: absolute;
+  top: 0;
+  left: 0;
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+  width: 96.06px;
+}
+.donation1,
+.join-us {
+  top: 36px;
+  width: 64.04px;
+}
+.join-us {
+  top: 72px;
+  width: 53px;
+}
+.group-parent,
+.newsletters-l-parent {
+  position: absolute;
+  top: 0;
+  left: 138.02px;
+  width: 96.06px;
+  height: 96px;
+}
+.group-parent {
+  top: 54px;
+  left: 0;
+  width: 234.08px;
+  height: 132px;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro);
+}
+.quick-links-parent {
+  position: absolute;
+  top: 96px;
+  left: 742px;
+  width: 281.56px;
+  height: 186px;
+  font-size: var(--font-size-xl);
+  color: var(--color-white);
+}
+.email-icon,
+.reach-us {
+  position: absolute;
+  left: 0;
+}
+.reach-us {
+  top: 0;
+  font-size: var(--font-size-xl);
+  line-height: 30px;
+  font-weight: 500;
+  color: var(--color-white);
+  display: inline-block;
+  width: 281.56px;
+}
+.email-icon {
+  height: 13.79%;
+  width: 8.19%;
+  top: 31.03%;
+  right: 91.81%;
+  bottom: 55.17%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.hellohealthumbrellacom {
+  position: absolute;
+  top: 54px;
+  left: 35.33px;
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+  width: 246.23px;
+}
+.phone-icon {
+  position: absolute;
+  height: 13.79%;
+  width: 8.19%;
+  top: 58.62%;
+  right: 91.81%;
+  bottom: 27.59%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.div {
+  position: absolute;
+  top: 102px;
+  left: 35.33px;
+  line-height: 24px;
+  font-weight: 300;
+  display: inline-block;
+  width: 246.23px;
+}
+.location-icon {
+  position: absolute;
+  height: 13.79%;
+  width: 8.19%;
+  top: 86.21%;
+  right: 91.81%;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.ngo-office {
+  position: absolute;
+  top: 150px;
+  left: 35.33px;
+  line-height: 20px;
+  font-weight: 300;
+  display: inline-block;
+  width: 288.19px;
+}
+.bg1,
+.reach-us-parent {
+  position: absolute;
+  top: 96px;
+  left: 1089.81px;
+  width: 323.52px;
+  height: 174px;
+}
+.bg1 {
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.terms-conditions {
+  position: relative;
+  line-height: 24px;
+}
+.links {
+  position: absolute;
+  right: 176.67px;
+  bottom: 25px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 8px;
+}
+.sub-footer {
+  position: absolute;
+  height: 15.29%;
+  width: 100%;
+  top: 84.5%;
+  right: 0;
+  bottom: 0.21%;
+  left: 0;
+}
+.footer {
+  position: absolute;
+  top: 902px;
+  left: -1px;
+  width: 1590px;
+  height: 471px;
+  font-size: var(--font-size-sm);
+  color: var(--color-gainsboro);
+  font-family: var(--font-rubik);
+}
+.desktop-1-child1 {
+  position: absolute;
+  top: 192px;
+  left: 340px;
+  border-radius: 10px;
+  background-color: #a0ffff;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.75);
+  width: 921px;
+  height: 592px;
+  opacity: 0.21;
+}
+.group-icon,
+.image-1-icon {
+  position: absolute;
+  top: 465px;
+  left: 415px;
+  width: 352px;
+  height: 52px;
+}
+.image-1-icon {
+  top: 325px;
+  left: 827px;
+  width: 370px;
+  height: 337px;
+  object-fit: cover;
+}
+.desktop-1 {
+  position: relative;
+  background-color: var(--color-white);
+  width: 100%;
+  height: 1373px;
+  overflow: hidden;
+  text-align: left;
+  font-size: var(--font-size-17xl);
+  color: var(--color-white);
+  font-family: var(--font-noto-sans);
+}
+
+.otp-box {
+  position: absolute;
+  top: 470px;
+  left: 453px;
+  width: 265px;
+  height: 62px;
+}
+
+.otp-box input {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  text-align: center;
+  border: 2px solid #777;
+  border-radius: 8px;
+  outline: none;
+}
+

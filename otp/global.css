@@ -1,0 +1,27 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-rubik: Rubik;
+  --font-acme: Acme;
+  --font-inter: Inter;
+  --font-noto-sans: "Noto Sans";
+
+  /* font sizes */
+  --font-size-sm: 14px;
+  --font-size-xl: 20px;
+  --font-size-7xl: 26px;
+  --font-size-17xl: 36px;
+
+  /* Colors */
+  --color-white: #fff;
+  --color-gainsboro: #d9dbe1;
+  --color-black: #000;
+  --color-darkslategray: #053b3f;
+
+  /* border radiuses */
+  --br-8xs: 5px;
+}
